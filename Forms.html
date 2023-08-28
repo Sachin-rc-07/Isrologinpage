@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+            <style>
+                /* giving colour to name text */
+                .title{
+                    color: white;
+                }
+            </style>
+</head>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1 class="title">Welcome to ISRO</h1>
+    <form action="backend.php">
+<img src="https://static.vecteezy.com/system/resources/previews/010/925/820/non_2x/colorful-welcome-design-template-free-vector.jpg" alt="No internet" width="220" height="75">        
+    
+    <br>
+        <div class="title" >
+Name:<input type="text" placeholder="Enter your name">
+</div>
+
+<br>
+
+<div class="title">Age:<input type="number">
+</div><br>
+<div class="title">Email:<input type="email" name="myemail" ></div><br>
+<div class="title">date: <input type="date" name="mydate" ></div><br>
+<div class="title">gender: Male<input type="radio" name="mygender" > Female: <input type="radio" name="mygender" id=""></div><br>
+<div class="title">About yourself <br><textarea name="About yourself" cols="30" rows="2"></textarea></div>
+<div class="title"><label for="country">Country</label>
+<select name="mycoun" id="country">
+
+    <option value="Indian">India</option> 
+    <option value="America">America</option>
+     <option value="austrila">Austrila</option>   
+</select>
+<br> <br>
+<div class="title">Terms&condition: <input type="checkbox" name="myterms" checked></div>
+<br>
+<div ><input class="submit-button" type="submit" value="Submit now"> <input class="submit-button" type="reset" value="Reset now"></div>
+</form>
+</body>
+<style>
+    h1.title{
+        color: rgb(255, 0, 0);
+    }
+   
+</style>
+</html>
